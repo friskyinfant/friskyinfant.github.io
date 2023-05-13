@@ -1,3 +1,5 @@
+// lazy to make a documentation
+
 let valueDisplays = document.querySelectorAll(".num");
 let interval = 2000;
 
@@ -13,6 +15,8 @@ valueDisplays.forEach((valueDisplay) => {
         }
     }, duration);
 });
+
+
 
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {

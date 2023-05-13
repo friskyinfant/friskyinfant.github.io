@@ -46,8 +46,15 @@ nav{
 }
 
 .navbar{
-    /* background: #03071e; */
     transition: 300ms ease;
+}
+
+#nav .dropdown-menu-dark{
+    margin-left: 115px;
+}
+
+#nav .dropdown-toggle:focus{
+    color: #fff;
 }
 
 .line{
@@ -140,6 +147,11 @@ footer{
     z-index: 100;
     backdrop-filter: blur(70px);
 }
+
+/* .projectMain #nav .dropdown-menu-dark{
+
+    right: 0;
+} */
 
 .wrapper > div{
     display: flex;
@@ -369,6 +381,12 @@ footer{
         width: 100%;
         padding-left: 80px;
         background: #03071e;
+    }
+
+    #nav .dropdown-menu-dark{
+        margin-left: 15px;
+        background: transparent;
+        border: none;
     }
 
 }
