@@ -148,11 +148,6 @@ footer{
     backdrop-filter: blur(70px);
 }
 
-/* .projectMain #nav .dropdown-menu-dark{
-
-    right: 0;
-} */
-
 .wrapper > div{
     display: flex;
     justify-content: center;
