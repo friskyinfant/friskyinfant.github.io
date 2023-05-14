@@ -279,6 +279,17 @@ footer{
     transition: 300ms ease;
 }
 
+/* about me page design */
+
+.about-me{
+    margin-top: 80px;
+}
+
+.about-me img{
+    max-width: 300px;
+}
+
+
 /* Responsive Design */
 
 @media (max-width: 1150px){
@@ -489,6 +500,10 @@ footer{
 
     .logos img{
         width: 50px;
+    }
+
+    .wrapper > div img:hover{
+        opacity: 1;
     }
 
 
