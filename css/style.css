@@ -78,24 +78,18 @@ nav{
 }
 
 .talklink a{
-    color: #ffee99;
+    color: #fff;
+    background: #006eff;
+    padding: 3px 8px;
+    border-radius: 3px;
     text-decoration: none;
     transition: 300ms ease;
+    font-size: 0.9rem;
 }
 
 .talklink a:hover{
-    color: #fff;
     transition: 300ms ease;
-}
-
-.talklink span{
-    margin-left: 10px;
-    transition: 300ms;
-}
-
-.talklink a:hover span{
-    margin-left: 40px !important;
-    transition: 300ms ease;
+    opacity: 70%;
 }
 
 .logos{
